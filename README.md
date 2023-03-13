@@ -15,7 +15,7 @@
 
 # Skills
 
-- Laravel10 , php8 , RabbitMq  
+- Laravel10 , php8 , RabbitMq , Docker
 
 
 # laravel micro services app : 
