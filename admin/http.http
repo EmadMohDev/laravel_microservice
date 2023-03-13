@@ -1,0 +1,44 @@
+### List Products
+GET http://localhost:8000/api/products
+Accept: application/json
+
+
+### Create New Product
+POST http://localhost:8000/api/products
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title" : "product" ,
+    "image" : "image"
+}
+
+
+### Edit Specfic product
+PUT http://localhost:8000/api/products/12
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title" : "product12-rabbit_edit" ,
+    "image" : "image12_rabbitmq_edit"
+}
+
+
+### Delete Specfic product
+DELETE http://localhost:8000/api/products/14
+
+
+### Random User
+POST http://localhost:8000/api/user
+Accept: application/json
+Content-Type: application/json
+
+
+
+
+### Like product (here we make hit from Main app => that will fire job on Admin app)
+GET http://localhost:8001/api/products/2/like
+
+
+
